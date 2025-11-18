@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: ;
+  font-family: sans-serif;
   padding-top: 20px; /* Espaço para ver os exemplos */
 }
 
@@ -42,9 +42,9 @@ body {
 
 #caixa2 {
   position: relative;
-  top: 30px; /* Desce 30px */
-  left: 50px; /* Vai 50px para a direita */
-  z-index: 10; /* Fica na frente da caixa 3 */
+  top: 0px; /* Desce 30px */
+  left: 0px; /* Vai 50px para a direita */
+  z-index: 0; /* Fica na frente da caixa 3 */
 
   /* O espaço original da Caixa 2 (verde) ainda está lá, 
        mas a caixa 3 (azul) vai se sobrepor a ela! */
@@ -59,19 +59,20 @@ body {
 
 #caixa3 {
   position: absolute;
-  top: 5px; /* 5px do topo do .container */
-  right: 5px; /* 5px da direita do .container */
-  width: 100px; /* Reduzimos para caber */
+  top: px; /* 5px do topo do .container */
+  right: 3px; /* 5px da direita do .container */
+  width: 200px; /* Reduzimos para caber */
   z-index: 5; /* Fica atrás da caixa 2 */
 }
 
 #caixa4 {
   position: fixed;
-  bottom: 10px; /* 10px do final da janela */
-  right: 10px; /* 10px da direita da janela */
+  bottom: 1px; /* 10px do final da janela */
+  right: 5px; /* 10px da direita da janela */
   width: 250px;
   /* Esta caixa vai ficar no canto da tela, 
        mesmo se você rolar a página */
+  top: 1px;
 }
 
 #caixa2 {
@@ -89,5 +90,5 @@ body {
 .avatar-flutuante {
     float: left;
     width: 300px;
-    margin-right: 15px; /* Espaço entre a imagem e o texto */
+    margin-right: 1500px; /* Espaço entre a imagem e o texto */
 }
