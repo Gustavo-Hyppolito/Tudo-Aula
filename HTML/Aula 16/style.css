@@ -59,10 +59,11 @@ body {
 
 #caixa3 {
   position: absolute;
-  top: px; /* 5px do topo do .container */
-  right: 3px; /* 5px da direita do .container */
-  width: 200px; /* Reduzimos para caber */
+  top: 300px; /* 5px do topo do .container */
+  right: 285px; /* 5px da direita do .container */
+  width: 100px; /* Reduzimos para caber */
   z-index: 5; /* Fica atrás da caixa 2 */
+  height: 30px;
 }
 
 #caixa4 {
@@ -91,4 +92,10 @@ body {
     float: left;
     width: 300px;
     margin-right: 1500px; /* Espaço entre a imagem e o texto */
+}
+#caixa3{
+  color: aliceblue;
+text-align: center;
+padding-bottom: 23px;
+
 }
