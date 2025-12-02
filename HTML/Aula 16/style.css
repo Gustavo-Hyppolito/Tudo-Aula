@@ -43,7 +43,7 @@ body {
 #caixa2 {
   position: relative;
   top: 0px; /* Desce 30px */
-  left: 0px; /* Vai 50px para a direita */
+  left: 30px; /* Vai 50px para a direita */
   z-index: 0; /* Fica na frente da caixa 3 */
 
   /* O espaço original da Caixa 2 (verde) ainda está lá, 
